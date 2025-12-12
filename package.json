@@ -1,0 +1,27 @@
+{
+  "name": "api_libros",
+  "version": "1.0.0",
+  "description": "Api Para Buscar Libros A Través De La Api De Google",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexzafra13/api_libros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexzafra13/api_libros/issues"
+  },
+  "homepage": "https://github.com/Alexzafra13/api_libros#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  }
+}
