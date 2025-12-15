@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "HTTP Api Libros",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

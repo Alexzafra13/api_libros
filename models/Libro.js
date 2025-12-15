@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const bookSchema = new mongoose.Schema({
+const libroSchema = new mongoose.Schema({
     titulo: { type: String, required: true },
     autor: String,
     anio_publicacion: Number,
@@ -8,3 +8,5 @@ const bookSchema = new mongoose.Schema({
     isbn: String,
     descripcion: String
 });
+
+export default mongoose.model("Libro", libroSchema);

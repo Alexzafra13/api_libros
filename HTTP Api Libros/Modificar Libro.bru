@@ -1,0 +1,22 @@
+meta {
+  name: Modificar Libro
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3000/api/books/693f05d9c6f14152f0b16565
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "titulo": "Don Quijote de la Mancha"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
